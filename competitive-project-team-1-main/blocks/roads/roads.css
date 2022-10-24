@@ -1,0 +1,8 @@
+.roads {
+  max-width: 1320px;
+  margin-left: 120px;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 46px;
+  padding-top: 10px;
+}

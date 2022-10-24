@@ -1,0 +1,17 @@
+.workout__title {
+  max-width: 460px;
+  font-size: 55px;
+  line-height: calc(60 / 55 * 100%);
+  letter-spacing: -.5px;
+  font-weight: 700;
+  margin: 0;
+  grid-area: title;
+}
+
+@media screen and (max-width: 320px) {
+  .workout__title {
+    font-size: 32px;
+    line-height: calc(40 / 32 * 100%);
+    max-width: 284px;
+  }
+}

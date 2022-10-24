@@ -1,0 +1,10 @@
+.bicycles__sidebar {
+  display: grid;
+  grid-area: sidebar;
+}
+
+/*@media screen and (max-width: 320px) {
+  .bicycles__sidebar {
+    display: none;
+  }
+}*/

@@ -1,0 +1,23 @@
+.bicycles {
+  max-width: 1200px;
+  margin: 0 120px 121px;
+  padding-top: 10px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: auto;
+  grid-template-areas:
+    'title . sidebar'
+    'image image image';
+}
+
+/*@media screen and (max-width: 320px) {
+  .bicycles {
+    max-width: 284px;
+    margin-left: 18px;
+    margin-right: 18px;
+    grid-template-columns: 1fr;
+    grid-template-areas:
+      'title'
+      'image';
+  }
+}*/
